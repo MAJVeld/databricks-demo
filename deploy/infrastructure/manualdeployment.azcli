@@ -1,0 +1,12 @@
+az login
+
+az account set --subscription "Visual Studio Enterprise Subscription – MPN"
+
+if (!($pwd -match 'infrastructure')) {push-location ./infrastructure}
+
+$rgName = "mv-demo-rg-weu"
+$location = "westeurope"
+
+az group create --name $rgName --location $location
+
+az deployment group create --resource-group $rgName --template-file main.bicep --parameters main.bicepparam
