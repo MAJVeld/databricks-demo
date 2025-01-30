@@ -7,7 +7,7 @@ location_short = "weu"
 raw_container_name = "raw"
 delta_table_container_name = "delta"
 
-catalog_name = 'demo2';
+catalog_name = 'demo';
 schema_name = 'nyctaxi';
 table_name = 'taxidata';
 

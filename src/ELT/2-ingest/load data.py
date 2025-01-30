@@ -186,7 +186,3 @@ WHERE Vendor is NOT NULL
 GROUP BY Vendor, Pickup_Date
 ORDER BY Vendor, Pickup_Date ASC
 """))
-
-# COMMAND ----------
-
-
