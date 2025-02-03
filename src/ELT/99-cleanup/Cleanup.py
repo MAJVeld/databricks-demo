@@ -5,6 +5,7 @@
 # COMMAND ----------
 
 # MAGIC %run ../includes/configuration
+# MAGIC
 
 # COMMAND ----------
 

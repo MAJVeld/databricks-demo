@@ -53,3 +53,7 @@ spark.sql(f"""
 CREATE TABLE IF NOT EXISTS {full_table_name}_cleaned
 USING DELTA COMMENT 'New York sample data set'
 LOCATION '{delta_path_cleaned}';""")
+
+# COMMAND ----------
+
+
